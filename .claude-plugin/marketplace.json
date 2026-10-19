@@ -1,0 +1,15 @@
+{
+  "name": "plugin-rules",
+  "owner": { "name": "rafal-one", "email": "rafal.baranowski.iot@gmail.com" },
+  "metadata": { "description": "Load the rules/ folders that installed Claude Code plugins ship" },
+  "plugins": [
+    {
+      "name": "plugin-rules",
+      "source": "./",
+      "description": "Load the rules/ folders that installed plugins ship (Claude, Cursor .mdc, Antigravity formats) with path scoping",
+      "version": "0.1.0",
+      "category": "development",
+      "author": { "name": "rafal-one", "email": "rafal.baranowski.iot@gmail.com" }
+    }
+  ]
+}

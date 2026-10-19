@@ -1,0 +1,23 @@
+{
+  "name": "plugin-rules",
+  "version": "0.1.0",
+  "description": "Load the rules/ folders that installed Claude Code plugins ship (Claude, Cursor .mdc and Antigravity formats), with path scoping.",
+  "author": { "name": "rafal-one agent", "email": "rafal.baranowski.iot@gmail.com" },
+  "license": "MIT",
+  "homepage": "https://github.com/rafal-one/plugin-rules",
+  "repository": "https://github.com/rafal-one/plugin-rules",
+  "userConfig": {
+    "extraDirs": {
+      "type": "string",
+      "title": "Extra rule directories",
+      "description": "Comma-separated directories with rule files (for example a team standards checkout). Relative paths are resolved against the project.",
+      "default": ""
+    },
+    "disabledPlugins": {
+      "type": "string",
+      "title": "Plugins to skip",
+      "description": "Comma-separated plugin names (the part before @) whose rules must not load.",
+      "default": ""
+    }
+  }
+}
