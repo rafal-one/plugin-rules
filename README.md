@@ -6,7 +6,8 @@ Claude Code has no `rules` plugin component today ([claude-code#14200](https://g
 ## Install
 
 ```
-/plugin install plugin-rules --marketplace rafal-one/plugin-rules
+/plugin marketplace add rafal-one/plugin-rules
+/plugin install plugin-rules@plugin-rules
 ```
 
 Needs a Claude Code build with mods (function hooks). Run `/plugin-rules` to see what loaded and why.
